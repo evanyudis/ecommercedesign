@@ -1,0 +1,332 @@
+html,h1,h2,h3,h4,h5,h6,a,p{
+    font-family: 'Poppins', sans-serif;
+   }
+
+img {
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.navbar { 
+    background: #0f0f0f;
+}
+
+.nav-link span {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .nav-link span {
+        display: inline;
+    }
+}
+
+.form-control-sm {
+    background: #222222;
+    color: #a0a0a0;
+    border: 1px solid transparent;
+    outline: transparent;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.btn-primary {
+    background: #222;
+    border: 1px solid transparent;
+    font-family: 'Poppins';
+}
+
+input {
+  font-family: 'Poppins';
+}
+
+a {
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.nav-link a:hover {
+    color: #428bca;
+}
+
+.log{
+    color: #0a0a0a;
+}
+
+.nav-link, .navbar-brand img{
+    display: block;
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 40px;
+    cursor: pointer;
+}
+
+@media (max-width: 480px) {
+    .navbar-brand img {
+        height: 40px;
+    }
+}
+
+.nav-link { 
+    margin-right: 1em !important;
+}
+
+.navbar-collapse { 
+    justify-content: flex-end;
+}
+
+.navbar-toggler {  
+    background: transparent !important;
+}
+
+.bg-dark{
+    background-color:#343a40!important
+}
+
+.bg-primary{
+    background-color:#428bca!important
+}
+
+.live__scroll {
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.live__scroll .row {
+  display: block;
+}
+
+.live__scroll .live__scroll--box {
+  display: inline-block;
+  float: none;
+  padding: 2px;
+}
+
+
+@media (max-width: 480px) {
+  ::-webkit-scrollbar {
+    width: 0px;
+    display: none;
+  }
+
+  ::-webkit-scrollbar-track {
+    margin: 0 0px;
+  }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  margin: 0 120px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+
+.single-product .price h5 {
+  margin-top: 2px;
+  margin-bottom: 15px;
+  font-weight: 600;
+  color: #cf1e1e;
+}
+
+/* line 382, /Applications/MAMP/htdocs/1.monthy projects/29.Shop/scss/theme/_home.scss */
+.single-product .price h3 {
+  font-weight: 700;
+  margin-top: 15px;
+}
+
+.single-product .price {
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  /* line 375, /Applications/MAMP/htdocs/1.monthy projects/29.Shop/scss/theme/_home.scss */
+  .single-product {
+    margin-bottom: 20px;
+  }
+
+  .single-product .price h5 {
+    font-size: 18px;
+  }
+
+  .single-product .price h3 {
+    font-size: 28px;
+  }
+}
+
+/* line 411, /Applications/MAMP/htdocs/1.monthy projects/29.Shop/scss/theme/_home.scss */
+.content {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+/* line 418, /Applications/MAMP/htdocs/1.monthy projects/29.Shop/scss/theme/_home.scss */
+.content .content-overlay {
+  background-color: #000;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+/* line 431, /Applications/MAMP/htdocs/1.monthy projects/29.Shop/scss/theme/_home.scss */
+.content:hover .content-overlay {
+  opacity: .45;
+}
+
+/* line 436, /Applications/MAMP/htdocs/1.monthy projects/29.Shop/scss/theme/_home.scss */
+.content-image {
+  width: 100%;
+}
+
+@media (max-width: 480px) {
+  .content-image {
+    width: 90%;
+  }
+
+  .content-overlay {
+    width: 90%;
+  }
+}
+
+.btn-outline-primary {
+  border:1px  solid transparent;
+  color:#fff;
+  border-radius: 5px;
+}
+
+.title h1 {
+    font-weight: 600;
+}
+
+@media (max-width: 480px) {
+  .title h1 {
+    font-size: 28px;
+  }
+}
+  
+
+  .footer-area {
+    background-color: #222222;
+  }
+
+  .white {
+    -webkit-filter: invert(1);
+    filter: invert(1);
+  }
+
+  .footer-area h6 {
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  /* line 680, /Applications/MAMP/htdocs/1.monthy projects/29.Shop/scss/theme/_home.scss */
+  .footer-social a {
+    padding-right: 25px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  
+  /* line 691, /Applications/MAMP/htdocs/1.monthy projects/29.Shop/scss/theme/_home.scss */
+  .footer-social i {
+    color: #cccccc;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  
+  @media (max-width: 991px) {
+    /* line 679, /Applications/MAMP/htdocs/1.monthy projects/29.Shop/scss/theme/_home.scss */
+    .footer-social {
+      text-align: left;
+    }
+  }
+
+  .footer-text {
+    padding-top: 80px;
+  }
+
+  .single-footer-widget {
+    margin-bottom: 30px;
+  }
+  
+  .single-footer-widget a, p{
+    color: #777;
+  }
+  
+  .single-footer-widget a:hover{
+    color: #428bca;
+    text-decoration: unset;
+  }
+
+  .single-footer-widget .footer-social a:hover i {
+    color: #428bca;
+  }
+
+  .single-footer-widget a {
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+
+  @media (max-width: 991px) {
+    /* line 679, /Applications/MAMP/htdocs/1.monthy projects/29.Shop/scss/theme/_home.scss */
+    .footer-social {
+      text-align: left;
+    }
+  }
+
+
+  /* width */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    margin: 0 120px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }

@@ -1,0 +1,106 @@
+.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background: transparent;
+}
+  
+.breadcrumb li {
+    display: inline;
+    font-size: 14px;
+}
+
+.breadcrumb li+li:before {
+    padding: 8px;
+    color: #a0a0a0;
+    content: "/\00a0";
+}
+  
+.breadcrumb li a {
+    color: #428bca;
+    text-decoration: none;
+}
+  
+.breadcrumb li a:hover {
+    color: #000;
+}
+
+.product-image-big img {
+    display: flex;
+    width: 100%;
+}
+
+.product-images img {
+    display: flex;
+    max-width: 50%;
+}
+
+.product-desc {
+    text-align: left;
+}
+
+.product-desc h1 {
+    font-weight: 700;
+    color: #222222;
+}
+
+.product-desc h5 {
+    color: #a0a0a0;
+    font-size: 18px;
+}
+
+.product-desc .color-tab {
+    margin-top: 50px;
+    padding: 20 0 20 0;
+}
+
+.product-desc input[type="button"] {
+    width: 65px;
+    height: 65px;
+    border: 2px solid transparent;
+    outline: none;
+}
+
+.c-black {
+    background: url('../img/l5.jpg') no-repeat;
+    background-size: cover;
+    cursor:pointer;
+}
+
+.c-white {
+    background: url('../img/l6.jpg') no-repeat;
+    background-size: cover;
+    cursor:pointer;
+}
+
+.c-usa {
+    background: url('../img/l7.jpg') no-repeat;
+    background-size: cover;
+    cursor:pointer;
+}
+
+.c-pink {
+    background: url('../img/l8.jpg') no-repeat;
+    background-size: cover;
+    cursor:pointer;
+}
+
+.color-tab-item:focus input[type="button"] {
+    border: 1px solid #428bca;
+    outline: none;
+}
+
+.product-desc p {
+    font-size: 16px;
+    color: #a0a0a0;
+}
+
+.btn-like:hover {
+    background: crimson;
+    color: #fff;
+}
+
+.btn-buy, .btn-like {
+    margin-top: 20px;
+}
+
+
